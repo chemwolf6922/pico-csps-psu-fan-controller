@@ -26,8 +26,8 @@ int main()
 
     for(;;)
     {
-        sleep_ms(100);
-        int ret = csps_write_reg(csps, CSPS_REG_WRITE_FAN_RPM, 5000);
+        sleep_ms(50);
+        int ret = csps_write_reg(csps, CSPS_REG_WRITE_FAN_RPM, 2000);
         // printf("result :%d\n", ret);
         // float fan_speed = csps_read_reg_by_name(csps, READ_FAN_RPM);
         // printf("Fan speed: %f rpm\n", fan_speed);
